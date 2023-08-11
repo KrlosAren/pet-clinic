@@ -6,9 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name : Checkout
+    - name : Checkout🚀 
       uses: actions/checkout@v3.5.3
       
-    - name: ListFiles
+    - name: ListFiles🧨
       run: ls -ltr
 
