@@ -1,0 +1,7 @@
+name: CI Java
+
+on: [push]
+
+jobs:
+  call-pipeline:
+    uses: KrlosAren/devops-pipeline/.github/workflows/main.yml@main

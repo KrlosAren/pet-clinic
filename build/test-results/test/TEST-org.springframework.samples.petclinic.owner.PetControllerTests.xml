@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.owner.PetControllerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-08-23T01:25:50" hostname="krlosaren.local" time="0.067">
+  <properties/>
+  <testcase name="testProcessCreationFormSuccess()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.008"/>
+  <testcase name="testProcessUpdateFormSuccess()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.008"/>
+  <testcase name="testInitUpdateForm()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.026"/>
+  <testcase name="testInitCreationForm()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.007"/>
+  <testcase name="testProcessCreationFormHasErrors()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.007"/>
+  <testcase name="testProcessUpdateFormHasErrors()" classname="org.springframework.samples.petclinic.owner.PetControllerTests" time="0.008"/>
+  <system-out><![CDATA[2023-08-22 21:25:49.774  INFO 77707 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [org.springframework.samples.petclinic.owner.PetControllerTests], using SpringBootContextLoader
+2023-08-22 21:25:49.775  INFO 77707 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-08-22 21:25:49.775  INFO 77707 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-08-22 21:25:49.777  INFO 77707 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests
+2023-08-22 21:25:49.778  INFO 77707 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-08-22 21:25:49.778  INFO 77707 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52f9a620, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d575cd8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@69c00140, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7cc7769d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@63100783, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34f636a5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5d55eb7a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ae11dd3, org.springframework.test.context.event.EventPublishingTestExecutionListener@79ae2d13, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7ce87f9d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@e944541, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1c89cec5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1447bef2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2b6c3f70, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@77ec911]
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 2.6.6
+
+
+2023-08-22 21:25:49.789  INFO 77707 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : Starting PetControllerTests using Java 11.0.17 on krlosaren.local with PID 77707 (started by krlosaren in /Users/krlosaren/projects/devops-foundation/pet-clinic)
+2023-08-22 21:25:49.789  INFO 77707 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : No active profile set, falling back to 1 default profile: "default"
+2023-08-22 21:25:50.060  INFO 77707 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-08-22 21:25:50.060  INFO 77707 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-08-22 21:25:50.061  INFO 77707 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-08-22 21:25:50.066  INFO 77707 --- [    Test worker] o.s.s.p.owner.PetControllerTests         : Started PetControllerTests in 0.287 seconds (JVM running for 6.181)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
