@@ -39,9 +39,9 @@ dependencies {
 
 sonar {
   properties {
-    property "sonar.projectKey", "pet-clinic"
+    property "sonar.projectKey", "KrlosAren_pet-clinic"
     property "sonar.organization", "krlosaren"
-    property "sonar.host.url", "KrlosAren_pet-clinic"
+    property "sonar.host.url", "https://sonarcloud.io"
   }
 }
 
