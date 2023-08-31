@@ -4,6 +4,7 @@ EXPOSE 8085
 
 ADD /build/libs/spring-petclinic-2.6.0.jar /app/spring-petclinic-2.6.0.jar
 
+
 WORKDIR /app
 
 CMD java -jar /app/spring-petclinic-2.6.0.jar
